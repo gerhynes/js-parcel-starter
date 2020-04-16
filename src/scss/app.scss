@@ -1,4 +1,4 @@
-$primary-color: slateblue;
+$primary-color: #e2e8f0;
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@ $primary-color: slateblue;
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: $primary-color;
-  color: #fff;
+  color: #1a202c;
   line-height: 1.5;
 }
 
@@ -30,9 +30,10 @@ ul {
 }
 
 header {
+  background-color: #fff;
   text-align: center;
   margin-bottom: 40px;
-  background: rgba(0, 0, 0, 0.3);
   padding: 30px;
-  border-bottom: 5px #fff solid;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
